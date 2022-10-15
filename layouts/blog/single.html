@@ -3,7 +3,8 @@
     <article>
         <div class="columns is-centered">
             <div class="column max-800px">
-                <h1 class="title is-1">{{ .Title }}</h1>
+                {{ partial "breadcrumbs.html" . }}
+                <h1 class="title is-3">{{ .Title }}</h1>
                     <div class="title subtitle heading is-6">
                         <div class="columns is-vcentered">
                             <div class="column">
@@ -17,13 +18,10 @@
                                         <p>{{ .Site.Params.Author }}</p>
                                         <p><time>{{ .PublishDate.Format "2 January, 2006" }}</time> | {{ .ReadingTime }} {{ if eq .ReadingTime 1}} Minuut {{ else }} Minuten {{ end }}</p>
                                     </div>
+                                    {{ partial "share-buttons.html" . }}
                                 </div>
                             </div>
-                            <div class="column">
-                                {{ range $idx, $category := .Params.categories }}
-                                {{- if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}" class="button is-info">{{ $category }}</a>
-                                {{ end }}
-                            </div>
+                            
                         </div>
                     </div>
                     {{ with .Params.Images }}
@@ -33,6 +31,13 @@
                     {{ end }}
                 <div class="content">
                     {{ .Content }}
+                </div>
+                <div class="column">
+                    <hr />
+                    {{ range $idx, $category := .Params.categories }}
+                    {{- if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}" class="button is-large is-info is-focused">{{ $category }}</a>
+                    {{ end }}
+                    <hr />
                 </div>
             </div>
         </div>

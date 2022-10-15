@@ -42,7 +42,7 @@ paginate = 4
 
 [[menu.social]]
     name = "facebook"
-    url = "https://www.facebook.com"
+    url = "https://www.facebook.com/profile.php?id=100085753795043"
     pre = "<i class='fa-brands fa-square-facebook fa-2xl'></i>"
 
 # /.social items
