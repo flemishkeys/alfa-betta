@@ -1,0 +1,96 @@
+baseURL = 'http://example.org/'
+languageCode = 'nl-BE'
+title = 'Alfa-Betta Official'
+theme = 'AB_Official'
+paginate = 4
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[params]
+    description = "My site description for search engines, global setting"
+    googleAnalytics = "UA-123-45"
+    author = "Steven Sambalii"
+    authorImage = "/images/author_icon.png"
+
+[permalinks]
+    blog = "/:filename"
+
+# .hoofd website menu
+[[menu.main]]
+    name = "Over"
+    url = "#"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+
+[[menu.main]]
+    name = "Onderwerpen"
+    url = "/categories"
+
+# /.hoofd website menu
+
+# .social items
+
+[[menu.social]]
+    name = "youtube"
+    url = "https://www.youtube.com"
+    pre = "<i class='fa-brands fa-square-youtube fa-2xl'></i>"
+
+[[menu.social]]
+    name = "facebook"
+    url = "https://www.facebook.com"
+    pre = "<i class='fa-brands fa-square-facebook fa-2xl'></i>"
+
+# /.social items
+
+# .footer links
+
+[[menu.footer]]
+    name = "Over"
+    url = "#"
+
+[[menu.footer]]
+    name = "Privacy verklaring"
+    url = "/privacy"
+
+# gerelateerd
+
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
