@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://www.alfa-betta.be'
 languageCode = 'nl-BE'
 title = 'Alfa-Betta Official'
 theme = 'AB_Official'
