@@ -23,7 +23,7 @@
         #consent-notice button.btn {position: relative; bottom: 4px;}
     }
 </style>
-<div id="consent-notice"><span>We zouden graag <a class="manage-consent" href="#manage-consent">code van derden</a> gebruiken om onze website te verbeteren.</span><button class="btn manage-consent">preferenties aanpassen</button><button class="btn deny-consent">Afwijzen</button><button class="btn approve-consent">Accepteren</button></div>
+<div id="consent-notice" class="buttons"><span>We zouden graag <a class="manage-consent" href="#manage-consent">code van derden</a> gebruiken om onze website te verbeteren.</span><button class="button manage-consent is-info is-small">instellingen aanpassen</button><button class="button deny-consent is-danger is-small">Afwijzen</button><button class="button approve-consent is-primary is-small">Accepteren</button></div>
 <div id="consent-overlay">
     <div>
         {{ range $index, $item := .Site.Data.consent.items }}
@@ -35,9 +35,9 @@
                 </label>
             </div>
         {{ end }}
-        <div>
-            <button id="save-consent" class="btn save-consent" data-consentvalue="{{ range $index, $item := .Site.Data.consent.items }}{{ if $item.is_functional}}{{ else }}0{{ end }}{{ end }}">Save preferences</button>
-            <button class="btn approve-consent">Allow all</button>
+        <div class="buttons">
+            <button id="save-consent" class="button is-info save-consent" data-consentvalue="{{ range $index, $item := .Site.Data.consent.items }}{{ if $item.is_functional}}{{ else }}0{{ end }}{{ end }}">Instellingen Opslaan</button>
+            <button class="button is-primary approve-consent">Accepteren</button>
         </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: "Post Title2 met aquarium afbeelding"
 date: 2022-10-15T10:46:18+02:00
-draft: false
+draft: true
 description: ""
 images:
     - /images/blog/2022/10/aquarium.jpg

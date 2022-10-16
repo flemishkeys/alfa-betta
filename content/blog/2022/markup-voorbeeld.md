@@ -1,7 +1,7 @@
 ---
 title: "Markup Voorbeeld met hand afbeelding"
 date: 2022-10-15T11:28:53+02:00
-draft: true
+draft: false
 description: "dit is een test beschrijving om te zien hoe het er uit ziet op onze blog pagina."
 images:
     - /images/blog/2022/10/hand.jpg

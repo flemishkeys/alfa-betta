@@ -10,7 +10,7 @@ paginate = 4
             unsafe = true
 
 [params]
-    description = "My site description for search engines, global setting"
+    description = "alfa-betta, een blog site over het houden van betta splendens en meer. gebouwd en onderhouden door een vlaams aquariaan, gefascineerd door betta splendens!"
     googleAnalytics = "UA-123-45"
     author = "Steven Sambalii"
     authorImage = "/images/author_icon.png"
@@ -20,11 +20,11 @@ paginate = 4
 
 # .hoofd website menu
 [[menu.main]]
-    name = "Over"
+    name = ""
     url = "#"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Alle Onderwerpen"
     url = "/blog"
 
 [[menu.main]]
@@ -35,10 +35,10 @@ paginate = 4
 
 # .social items
 
-[[menu.social]]
-    name = "youtube"
-    url = "https://www.youtube.com"
-    pre = "<i class='fa-brands fa-square-youtube fa-2xl'></i>"
+#[[menu.social]]
+#    name = "youtube"
+#    url = "https://www.youtube.com"
+ #   pre = "<i class='fa-brands fa-square-youtube fa-2xl'></i>"
 
 [[menu.social]]
     name = "facebook"
@@ -65,11 +65,11 @@ paginate = 4
     toLower = false
 
     [[related.indices]]
-        name = "categories"
+        name = "categoriën"
         weight = 100
 
     [[related.indices]]
-        name = "date"
+        name = "datum"
         weight = 10
 
 [privacy]

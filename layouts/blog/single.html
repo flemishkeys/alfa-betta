@@ -3,22 +3,14 @@
     <article>
         <div class="columns is-centered">
             <div class="column max-800px">
-                {{ partial "breadcrumbs.html" . }}
                 <h1 class="title is-3">{{ .Title }}</h1>
                     <div class="title subtitle heading is-6">
                         <div class="columns is-vcentered">
                             <div class="column">
                                 <div class="columns is-vcentered is-mobile">
-                                    {{ with .Site.Params.authorImage }}
-                                    <div class="column is-narrow">
-                                        <img src="{{ . }}" alt="afbeelding van de auteur">
-                                    </div>
-                                    {{ end }}
                                     <div class="column">
-                                        <p>{{ .Site.Params.Author }}</p>
-                                        <p><time>{{ .PublishDate.Format "2 January, 2006" }}</time> | {{ .ReadingTime }} {{ if eq .ReadingTime 1}} Minuut {{ else }} Minuten {{ end }}</p>
+                                        {{ partial "share-buttons.html" . }}
                                     </div>
-                                    {{ partial "share-buttons.html" . }}
                                 </div>
                             </div>
                             
@@ -29,6 +21,7 @@
                         <img src="{{ index . 0 }}" alt="">
                     </figure>
                     {{ end }}
+                    
                 <div class="content">
                     {{ .Content }}
                 </div>
