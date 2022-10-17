@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: true
 description: ""
 images:
-    - /url/of/image.png
+    - /images/blog/jaartal/maand_nummer/afbeelding.jg
 categories:
     - Categorie 3
     - Categorie 4

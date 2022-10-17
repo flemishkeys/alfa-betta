@@ -1,5 +1,0 @@
-items:
-  - title: Google Anaytics (functioneel)
-    description: Deze code geeft ons inzicht in het aantal mensen dat onze website bezoekt, waar ze vandaan komen en waar ze op klikken. Wij volgen de richtlijnen van de Overheid, die beschrijven hoe u Google Analytics kunt gebruiken zonder dat hiervoor expliciete toestemming nodig is.
-    is_functional: true
-    script_file: ga.js

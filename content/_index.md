@@ -14,11 +14,14 @@ description: "short description in the front matter of a post"
 <section class="hero is-medium is-dark main-image">
     <div class="hero-body">
         <div class="container has-text-centered">
-            <img src="images/author_icon.png">
             <h2 class="title is-1">Welkom bij alfa-betta.be</h2>
             <h4 class="subtitle is-4">Vlaams aquariaan, gefascineerd door betta splendens</h4>
         </div>
     </div>
 </section>
+
+{{% note %}}
+Deze website is nog vollop in opbouw!
+{{% /note %}}
 
 {{< blogposts count=6 >}}

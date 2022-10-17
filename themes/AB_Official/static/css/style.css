@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+:root {
+    /* main */
+    --main-font: 'Poppins', sans-serif;
+    --font-size: 1.1em;
+    --font-color: #012068;
+    --line-height: 1.25;
+    --main-content-width: 1024px;
+    --body-background: #efefef;
+
+    /* footer */
+    --footer-color-background: #3e8ed0;
+    --footer-font-color: #fff;
+    --footer-a-hoover: #e5e5e5;
+}
+
 .logo h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5em;
@@ -7,6 +24,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    color: var(--font-color);
+    line-height: var(--line-height);
+    background-color: var(--body-background);
 }
 
 main {
@@ -14,7 +36,7 @@ main {
 }
 
 .max-800px {
-    max-width: 1024px;
+    max-width: var(--main-content-width);
 }
 
 .author-image {
@@ -33,25 +55,21 @@ main {
     height: 100%;
 }
 
-table {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+.footer {
+    background-color: var(--footer-color-background);
+    color: var(--footer-font-color);
 }
-  
-table td, th {
-    border: 1px solid #ddd;
-    padding: 8px;
+
+.footer strong {
+    color: var(--footer-font-color);
+    font-weight: 900;
 }
-  
-tr:nth-child(even){background-color: #f2f2f2;}
-  
-tr:hover {background-color: #ddd;}
-  
-table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #04AA6D;
-    color: white;
+
+.footer a {
+    color: var(--footer-font-color);
+}
+
+.footer a:hover {
+    color: var(--footer-a-hoover);
+    text-decoration: underline;
 }

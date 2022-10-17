@@ -2,19 +2,31 @@
 title: "Markup Voorbeeld met hand afbeelding"
 date: 2022-10-15T11:28:53+02:00
 draft: false
-description: "dit is een test beschrijving om te zien hoe het er uit ziet op onze blog pagina."
+description: "Laten we het eens hebben over het huisvesten van onze dames/heren bettas, heel makkelijk te doen, als je de volgende punten aanhoud"
 images:
     - /images/blog/2022/10/hand.jpg
 categories:
     - blogging
     - nature
 ---
+{{% note %}}
+Dit is een *notitie*
+Laten we hier wat meer informatie neer pennen om te zien hoe het werkt
+Dit is een **notitie**
+Laten we hier wat meer informatie neer pennen om te zien hoe het werkt
+{{% /note %}}
 
-```mermaid
-pie title NETFLIX
-         "Time spent looking for movie" : 90
-         "Time spent watching it" : 10
-```
+{{% tip %}}
+Dit is een tip
+Laten we hier wat meer informatie neer pennen om te zien hoe het werkt
+Laten we hier wat meer informatie neer pennen om te zien hoe het werkt
+{{% /tip %}}
+
+{{% warning %}}
+Dit is een waarschuwing
+Laten we hier wat meer informatie neer pennen om te zien hoe het werkt
+Laten we hier wat meer informatie neer pennen om te zien hoe het werkt
+{{% /warning %}}
 
 # H1
 ## H2

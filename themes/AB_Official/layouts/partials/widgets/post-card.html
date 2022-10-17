@@ -8,10 +8,12 @@
         </figure>
     </div>
     <div class="card-content">
-        <a class="title is-4" href="{{ .Permalink }}">{{ .Title }}</a>
-        <span class="heading">{{ .Site.Params.Author }} | <time>{{ .PublishDate.Format "2 January, 2006"}}</time></span>
+        <a class="title is-5" href="{{ .Permalink }}">{{ .Title }}</a>
         <div class="content">
             {{ .Description }}
         </div>
+    </div>
+    <div class="card-content">
+        <a href="{{ $permalink }}" class="button is-small is-info is-light">Lees Meer</a>
     </div>
 </div>

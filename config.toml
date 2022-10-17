@@ -8,6 +8,10 @@ paginate = 4
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+        [markup.tableOfContents]
+          endLevel = 4
+          ordered = false
+          startLevel = 3
 
 [params]
     description = "alfa-betta, een blog site over het houden van betta splendens en meer. gebouwd en onderhouden door een vlaams aquariaan, gefascineerd door betta splendens!"
@@ -24,11 +28,11 @@ paginate = 4
     url = "#"
 
 [[menu.main]]
-    name = "Alle Onderwerpen"
+    name = "Blog"
     url = "/blog"
 
 [[menu.main]]
-    name = "Onderwerpen"
+    name = "Categoriën"
     url = "/categories"
 
 # /.hoofd website menu
