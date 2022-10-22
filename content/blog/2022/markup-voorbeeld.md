@@ -1,7 +1,7 @@
 ---
 title: "Markup Voorbeeld met hand afbeelding"
 date: 2022-10-15T11:28:53+02:00
-draft: false
+draft: 
 description: "Laten we het eens hebben over het huisvesten van onze dames/heren bettas, heel makkelijk te doen, als je de volgende punten aanhoud"
 images:
     - /images/blog/2022/10/hand.jpg
@@ -9,6 +9,15 @@ categories:
     - blogging
     - nature
 ---
+{{< columns >}}
+<div class="column">
+div links
+</div>
+<div class="column">
+div rechts
+</div>
+{{< /columns >}}
+
 {{% note %}}
 Dit is een *notitie*
 Laten we hier wat meer informatie neer pennen om te zien hoe het werkt

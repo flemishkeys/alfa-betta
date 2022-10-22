@@ -1,6 +1,6 @@
 baseURL = 'https://www.alfa-betta.be/'
 languageCode = 'nl-BE'
-title = 'Alfa-Betta Official'
+title = 'Alfa-Betta.be'
 theme = 'AB_Official'
 paginate = 4
 
