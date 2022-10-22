@@ -1,7 +1,6 @@
 ---
 title: "De foute opstelling van de dag!"
 date: 2022-10-22T09:51:30+02:00
-draft: true
 description: "Een betta aquarium opstellen in minder dan 3min, fouter kan het eigenlijk niet zijn bij deze."
 images:
     - /images/blog/2022/fail.png
