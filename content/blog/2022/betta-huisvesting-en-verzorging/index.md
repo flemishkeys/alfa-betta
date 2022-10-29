@@ -7,7 +7,6 @@ images:
     - /images/blog/2022/10/betta_in_nano_aquarium.jpg
 categories:
     - Verzorging
-    - 2022
 ---
 {{< table_of_contents >}}
 

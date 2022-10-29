@@ -6,7 +6,6 @@ images:
     - /images/blog/2022/fail.png
 categories:
     - FAIL
-    - 2022
 ---
 {{< table_of_contents >}}
 ## Intro

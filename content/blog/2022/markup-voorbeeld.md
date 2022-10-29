@@ -1,7 +1,7 @@
 ---
 title: "Markup Voorbeeld met hand afbeelding"
 date: 2022-10-15T11:28:53+02:00
-draft: 
+draft: true 
 description: "Laten we het eens hebben over het huisvesten van onze dames/heren bettas, heel makkelijk te doen, als je de volgende punten aanhoud"
 images:
     - /images/blog/2022/10/hand.jpg
