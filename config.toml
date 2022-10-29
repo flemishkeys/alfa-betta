@@ -4,9 +4,6 @@ title = 'Alfa-Betta.be'
 theme = 'AB_Official'
 paginate = 4
 
-[outputs]
-  home = ["HTML", "JSON", "RSS"]
-
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
