@@ -23,17 +23,21 @@ paginate = 4
     blog = "/:filename"
 
 # .hoofd website menu
-[[menu.main]]
-    name = ""
-    url = "#"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Algemeen"
     url = "/blog"
+    weight = 10
 
 [[menu.main]]
-    name = "Categoriën"
+    name = "Verzorging"
+    url = "/categories/verzorging"
+    weight = 20
+
+[[menu.main]]
+    name = "Alle Onderwerpen"
     url = "/categories"
+    weight = 30
 
 # /.hoofd website menu
 
