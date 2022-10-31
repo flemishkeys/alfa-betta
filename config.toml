@@ -35,9 +35,14 @@ paginate = 4
     weight = 20
 
 [[menu.main]]
+    name = "Weetjes"
+    url = "/categories/weetjes"
+    weight = 30
+
+[[menu.main]]
     name = "Alle Onderwerpen"
     url = "/categories"
-    weight = 30
+    weight = 100
 
 # /.hoofd website menu
 
