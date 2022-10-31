@@ -1,5 +1,5 @@
 ---
-title: "Posts en onderwerpen"
+title: "Alle onderwerpen"
 date: 2022-10-15T09:42:07+02:00
 draft: false
 description: ""
