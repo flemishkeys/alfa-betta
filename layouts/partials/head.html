@@ -16,6 +16,6 @@
 
     <!-- Google analytics -->
     {{ if not (in (string .Site.BaseURL) "localhost") }}
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
     {{ end }}
 </head>

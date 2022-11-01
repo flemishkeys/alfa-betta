@@ -1,4 +1,4 @@
-<section class="section is-small">
+{{/*  <section class="section is-small">
     <span class="icon-text has-text-danger">
         <span class="icon">
           <i class="fas fa-exclamation-triangle"></i>
@@ -8,4 +8,13 @@
     <div class="notification subtitle is-danger is-light box">
         {{ .Inner | markdownify }}
     </div>
+</section>  */}}
+
+<section class="message is-danger">
+  <div class="message-header">
+    <p>Waarschuwing</p>
+  </div>
+  <div class="message-body">
+    {{ .Inner | markdownify }}
+  </div>
 </section>

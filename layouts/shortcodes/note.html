@@ -1,4 +1,4 @@
-<section class="section is-small">
+{{/*  <section class="section is-small">
         <span class="icon-text has-text-success">
             <span class="icon">
               <i class="fas fa-check-square"></i>
@@ -8,4 +8,13 @@
         <div class="notification subtitle is-primary is-light box">
             {{ .Inner | markdownify }}
         </div>
+</section>  */}}
+
+<section class="message is-success">
+  <div class="message-header">
+    <p>Opmerking</p>
+  </div>
+  <div class="message-body">
+    {{ .Inner | markdownify }}
+  </div>
 </section>

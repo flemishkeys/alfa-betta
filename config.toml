@@ -15,7 +15,7 @@ paginate = 4
 
 [params]
     description = "alfa-betta, een blog site over het houden van betta splendens en meer. gebouwd en onderhouden door een vlaams aquariaan, gefascineerd door betta splendens!"
-    googleAnalytics = "UA-123-45"
+    googleAnalytics = "G-6Y97EC18DX"
     author = "Steven Sambalii"
     authorImage = "/images/author_icon.png"
 
@@ -35,9 +35,14 @@ paginate = 4
     weight = 20
 
 [[menu.main]]
+    name = "Weetjes"
+    url = "/categories/weetjes"
+    weight = 30
+
+[[menu.main]]
     name = "Alle Onderwerpen"
     url = "/categories"
-    weight = 30
+    weight = 100
 
 # /.hoofd website menu
 
@@ -102,3 +107,9 @@ paginate = 4
   [privacy.youtube]
     disable = false
     privacyEnhanced = false
+
+[params.shareButtons]
+  networks = [ "facebook", "twitter", "email", "reddit", "pinterest", "reddit", "whatsapp" ]
+  size = "medium"
+  icon = "solid"
+  buttonMargin = "0.2em"
