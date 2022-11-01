@@ -1,11 +1,20 @@
 <footer class="footer">
-    <div class="content has-text-centered">
-      <figure>
-        <img src="/images/ab_logo.png">
-        <figcaption>
-          Copyright &copy; <script>document.write(new Date().getFullYear())</script>
-          Alfa-Betta.be Alle rechten voorbehouden.
-        </figcaption>
-      </figure>
+  <div class="content has-text-centered">
+    <figure>
+      <img src="/images/ab_logo.png">
+      <figcaption>
+        Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+        Alfa-Betta.be Alle rechten voorbehouden.
+      </figcaption>
+    </figure>
+  </div>
+  <div class="container">
+    <div class="has-text-centered">
+        {{ range .Site.Menus.footer }}
+        <div class="column is-narrow">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        </div>
+        {{ end }}
     </div>
+  </div>
 </footer>

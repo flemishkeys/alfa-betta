@@ -68,12 +68,8 @@ enableRobotsTXT = true
 # .footer links
 
 [[menu.footer]]
-    name = "Over"
-    url = "#"
-
-[[menu.footer]]
-    name = "Privacy verklaring"
-    url = "/privacy"
+    name = "Cookie Beleid"
+    url = "/cookiebeleid"
 
 # gerelateerd
 
