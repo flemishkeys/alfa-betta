@@ -9,9 +9,9 @@ Onze website maakt gebruik van Google Analytics om onze website te verbeteren vo
 Dit zorgt er voor dat we kunnen zien vanwaar onze bezoekers komen en welke onderwerpen heel populair zijn.<br />
 Op deze manier kunnen we ons richten tot hetgeen die populair is op onze website, steeds om elke bezoeker beter van dienst te kunnen zijn.
 
-| Cookies | Reden |
-|---|:---|
-| Google Analytics | blah |
+#### Cookies gebruikt bij ons
+  - Google Analitics (Actief)
+    - Verbetering van onze website door middel van wat relevant is op onze website
 
 **Alfa-Betta.be** Verzamelt op geen enkel moment persoonlijke informatie van zijn lezers!<br />
 Na het klikken op de **Ok** knop, zal je deze melding voor x aantal tijd niet meer te zien krijgen.
