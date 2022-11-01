@@ -15,7 +15,6 @@ paginate = 4
 
 [params]
     description = "alfa-betta, een blog site over het houden van betta splendens en meer. gebouwd en onderhouden door een vlaams aquariaan, gefascineerd door betta splendens!"
-    googleAnalytics = "G-6Y97EC18DX"
     author = "Steven Sambalii"
     authorImage = "/images/author_icon.png"
 
