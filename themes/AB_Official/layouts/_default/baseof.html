@@ -8,5 +8,28 @@
         </main>
         {{- partial "footer.html" . -}}
         {{- partial "back_to_top.html" . -}}
+
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+        window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+            "background": "#237afc"
+            },
+            "button": {
+            "background": "#fff",
+            "text": "#237afc"
+            }
+        },
+        "theme": "classic",
+        "position": "bottom-left",
+        "content": {
+            "message": "Deze website maakt gebruik van cookies voor Google Analytics.",
+            "dismiss": "Ok",
+            "link": "Meer lezen",
+            "href": "/cookiepolicy"
+        }
+        });
+        </script>
     </body>
 </html>
