@@ -3,6 +3,12 @@ languageCode = 'nl-BE'
 title = 'Alfa-Betta.be'
 theme = 'AB_Official'
 paginate = 4
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "always"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [markup]
     [markup.goldmark]

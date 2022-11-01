@@ -1,9 +1,0 @@
-<div class="section box">
-    <span class="icon-text">
-        <span class="icon">
-          <i class="fas fa-info-circle"></i>
-        </span>
-        <span>Onderwerpen:</span>
-    </span>
-    {{ .Page.TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" |  safeHTML }}
-</div>

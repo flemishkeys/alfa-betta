@@ -2,7 +2,7 @@
 title: "Begin pagina"
 date: 2022-10-15T07:35:21+02:00
 draft: false
-description: "short description in the front matter of a post"
+description: "Alfa-betta, voor en door hobbyisten met een hart voor Betta Splendens!"
 ---
 <style>
 .main-image {
